@@ -1,0 +1,139 @@
+body{
+    background-color:rgba(36, 67, 124) ;
+    font-family: 16px 'Lato', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 60px;
+    font-weight:normal;
+}
+
+.nav-item a{
+    display:flex;
+    list-style: none;
+    color:white;
+    text-transform: capitalize;
+    text-decoration:none;
+    margin: 5px;
+    font-weight:normal;
+}
+
+.cta-btn{
+    background-color:rgba(62, 195, 238);
+    padding:2px;
+    border-radius: 4px;
+    font-weight:normal;
+}
+
+.nav-item{
+    display:inline-block;
+    font-weight:normal;
+}
+
+.nav-brand{
+    height:25px;
+}
+
+.header-title{
+    display:flex;
+    justify-content: center;
+    padding: 80px 0 0 0 ;
+    margin: 0 60px 0 60px;
+    color:white;
+    text-transform: capitalize;
+    font-weight:normal;
+}
+
+.header-subtitle{
+    display:flex;
+    justify-content: center;
+    font-size: 26px;
+    color: rgb(125, 164, 177);
+    padding: 0;
+    margin:30px;
+    color:white;
+    font-weight:normal;
+}
+
+#button-container{
+    font-size: 18px;
+    color:white;
+    min-width: auto;
+    max-width:100px;
+    margin: 0 0px 0 710px;
+    font-weight:normal;
+}
+
+.header-btn{
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    background-color: rgba(62, 195, 238);
+    color:white;
+    padding:6px;
+    text-transform: capitalize;
+    font-weight:normal;
+}
+
+.header-services{
+    display:flex;
+    justify-content: center;
+    margin: 40px 40px 0 40px;
+    color:white;
+    padding: 60px 90px 0 90px;
+    list-style: none;
+    font-weight:normal;
+}
+
+
+
+.service-title{
+    display:flex;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    margin: 0 40px 0 40px;
+    font-weight:normal;
+    
+}
+
+article{
+    padding: 0 30px 0 30px;
+    font-weight:normal;
+}
+
+.service{
+    color:white;
+    padding: 20px 0 0 0;
+    margin:0;
+    font-weight:normal;
+}
+
+.service:hover{
+    background-color:rgba(61, 194, 239);
+    cursor:pointer;
+    transition: 1s ease;
+    font-weight:normal;
+}
+
+.service-intro{
+    margin: 0 20px 20px 20px;
+    padding: 20px 40px 0px 40px;
+    color:white;
+    font-weight:normal;
+}
+
+.service-link{
+    margin: 20px 0 0 0;
+    padding:0;
+    display:block;
+    text-decoration: none;
+    font-weight:bold;
+    color:white;
+    font-weight:normal;
+}
+
